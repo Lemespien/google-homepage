@@ -34,6 +34,7 @@
 .search_button:hover {
     border: 1px solid gray;
     box-shadow: 2px 2px rgb(240, 238, 238);
+    cursor: pointer;
 }
 .icon_box {
     display: inline-block;
@@ -75,5 +76,41 @@
     outline: none;
     background: #4285f4;
     background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    border-radius: 0.4rem;
+}
+.footer_wrapper {
+    display: grid;
+    grid-template-columns: 500px auto 500px;
+    grid-template-rows: 40px;
+    grid-template-areas: "footer_left . footer_right";
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: #f2f2f2;
+    line-height: 20px;
+    min-width: 980px;
+    border: 1px solid #e4e4e4;
+}
+.footer_left {
+    grid-area: footer_left;
 }
 
+.footer_right {
+    grid-area: footer_right;
+    text-align: right;
+}
+
+.footer_left, .footer_right {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+a:link {
+    color: #333;
+}
+a:visited {
+    color: #333;
+}
