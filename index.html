@@ -5,37 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/5cfa9e2d95.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
     <title>Leme Front Page</title>
 </head>
 <body>
+    <div id="main_header" class="header_wrapper">
+        <nav class="nav_wrapper">
+            <a href="#">Lemail</a>
+            <a href="#">Images</a>
+            <a href="#" id="hub_menu"></a>
+            <a href="#" id="profile_menu">Sign In</a>
+        </nav>
+    </div>
     <div id="main_content" class="container main_content_wrapper">
-        <div id="main_logo" class="logo_wrapper">
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+        <div class="row">
+            <div id="main_logo" class="logo_wrapper">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+            </div>
         </div>
-        <div id="main_search" class="search_wrapper">
-            <i class="fas fa-search"></i>
-            <input type="text">
-            <i class="fas fa-microphone"></i>
+        <div class="row">
+            <div id="main_search" class="search_wrapper">
+                <label class="icon_box">
+                    <i class="fas fa-search"></i>
+                </label>
+                <input type="text" placeholder="Search Leme or type a URL">
+                <label class="icon_box">
+                    <i class="fas fa-microphone"></i>
+                </label>
+            </div>
         </div>
-        <div id="main_search_buttons" class="search_button_wrapper">
-                <button>Leme Search</button>
-                <button>Feeling Lucky</button>
+        <div class="row">
+            <div id="main_search_buttons" class="search_button_wrapper">
+                <button class="search_button">Leme Search</button>
+                <button class="search_button">Feeling Lucky</button>
+            </div>
+        </div>
+        <div id="languange_wrapper">
+            <p>Leme Search offered in: <a href="#main_content" id="language">Norsk</a></p>
         </div>
     </div>
+    <script src="./js/main.js"></script>
 </body>
-<style>
-    .main_content_wrapper {
-        width: 100%;
-        text-align: center;
-        margin: auto;
-    }
-    .search_wrapper input {
-        border-radius: 25px;
-    }
-    .search_wrapper i {
-        position: relative;
-        left: 26px;
-        top: 2px;
-    }
-</style>
 </html>

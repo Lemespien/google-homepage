@@ -1,0 +1,79 @@
+.main_content_wrapper {
+    text-align: center;
+    margin: 89px auto;
+}
+.main_content_wrapper .row {
+    margin: 25px 0;
+}
+#main_search input{
+    border: none;
+    display: inline;
+    width: 21rem;
+    font-size: 1rem;
+}
+#main_search:hover {
+    box-shadow: 0px 0px 1px 1px rgb(206, 204, 204);
+}
+.search_wrapper {
+    width: 25rem;
+    height: 2.5rem;
+    line-height: 2.25rem;
+    margin:  5px auto;
+    padding: 5px 0 0 0;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+.search_button {
+    background-color: #f2f2f2;
+    border-radius: 0.5rem;
+    border: none;
+    height: 30px;
+    width: 10rem;
+    margin: 0 5px;
+}
+.search_button:hover {
+    border: 1px solid gray;
+    box-shadow: 2px 2px rgb(240, 238, 238);
+}
+.icon_box {
+    display: inline-block;
+    width: 20px;
+    cursor: pointer;
+}
+
+.header_wrapper {
+    text-align: right;
+    margin: auto;
+    line-height: 30px;
+
+}
+.nav_wrapper {
+    padding: 0.5rem;
+}
+.nav_wrapper button {
+    height: 20px;
+}
+#hub_menu {
+    display: inline-block;
+    background-image: url("https://img.icons8.com/ios-filled/50/000000/grid.png");
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    background-size: 16px 16px;
+}
+
+#profile_menu {
+    display: inline-block;
+    text-align: center;
+    width: 85px;
+    height: 30px;
+    color: #fff;
+    cursor: default;
+    text-decoration: none;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+}
+
